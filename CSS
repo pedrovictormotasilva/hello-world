@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    background: url(floresta.jpg);
+    background-size: cover;
+    backface-visibility: 60%;
+
+    color: #322f31;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#window {
+    margin: auto;
+    
+    background-color: #f3f1f4;
+
+    border: solid 0.1rem #6e6e6e4d;
+    box-shadow: 0 1rem 3rem #0000004d;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}        
+
+ /* barra do título*/
+ 
+ #title-bar{
+    align-self: auto; 
+    background-color: #f9f4f8;
+     border-bottom: solid 0.1rem #dcdcdc;
+ }
+ 
+ #dots{
+     display: flex;
+     flex-direction: row;
+    border: 0rem;
+     padding: 2rem;
+ }
+
+ #dots span{
+     height: 1rem;
+     width: 1rem;
+     margin-right: 0.6rem;
+     background-color: #cacacaca;
+     border-radius: 50%;
+ }
+
+ #dots span:nth-child(1){background-color: #fc5653;}
+ #dots span:nth-child(2){background-color: #33c748;}
+ #dots span:nth-child(3){background-color: #fdbc40;}
+
+ /*window do corpo*/
+
+ #window-body{
+     padding: 6rem 10rem;
+
+ }
