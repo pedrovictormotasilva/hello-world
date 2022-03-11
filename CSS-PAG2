@@ -29,6 +29,7 @@ body {
     box-shadow: 0 1rem 3rem #0000004d;
     border-radius: 0.8rem;
     overflow: hidden;
+    padding: 1em;
 }
 #title-bar{
     align-self: auto; 
